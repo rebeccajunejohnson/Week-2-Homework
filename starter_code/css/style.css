@@ -1,0 +1,119 @@
+/*
+Project Name: Rebecca Johnson   
+Client: Relaxr
+Author: Rebecca Johnson
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+blockquote {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+cite {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.buttonone {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
