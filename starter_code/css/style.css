@@ -34,6 +34,7 @@ body {
 	color: #000;
 	line-height: 1.5;
     font-family: Helvetica, Arial, sans-serif;
+    background-color: #033048;
 }
 
 
@@ -62,7 +63,7 @@ body {
     text-align: center;
 }
 
-h1 {
+.logoindex {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     color: white;
@@ -110,7 +111,7 @@ h4 {
     margin-right: 200px;
 }
 
-li {
+.indexlist li {
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
     color: #606161;
@@ -189,7 +190,102 @@ footer {
     margin: 10px;
 }
 
+.blogheader {
+    color: #f9e42e;
+    background-color: #033048;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: stretch;
+      
+}
 
+.blognav {
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 30px;
+ 
+}
 
+.blognav a {
+    text-decoration: none;
+    color: #f9e42e;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    font-style: semibold; 
+}
+
+.blognav li {
+    display: inline; 
+    padding: 20px;
+}
+
+.logoheader {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: left;
+}
+ 
+section {
+    background-color: #f0efef;
+    padding: 40px;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: semibold; 
+    color: #033048;
+
+}
+
+.blogcontent p {
+    color: #606161;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+p::first-letter { 
+    font-size: 60px;
+    color: #606161;
+    padding: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    float: left;
+}
+
+.blogcontent a {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #033048;
+    float: right;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #033048;
+}
+
+.blogright li {
+    color: #033048;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    list-style: none;
+
+}
+
+.flexboxone {
+    display: flex;
+}
 
 
